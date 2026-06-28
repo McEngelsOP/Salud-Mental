@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MentalCare Kids Perú — Detección Temprana de Salud Mental Escolar</title>
+  <meta name="description" content="MentalCare Kids Perú — Iniciativa universitaria ESAN para mejorar la detección temprana de problemas de salud mental en estudiantes de 7 a 14 años en colegios públicos del Perú." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fraunces:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="sedet-web/css/styles.css" />
+</head>
+<body>
+
+  <!-- ═══ NAV ═══ -->
+  <header class="nav">
+    <div class="nav__inner container">
+      <a href="#inicio" class="nav__logo">
+        <img src="ESAN (1).png" alt="ESAN" class="logo-img" />
+        <span class="logo-text">MentalCare Kids Perú</span>
+      </a>
+      <nav class="nav__links">
+        <a href="#problema">Problema</a>
+        <a href="#datos">Datos</a>
+        <a href="#solucion">Solución</a>
+        <a href="#equipo">Equipo</a>
+        <a href="sedet-web/propuesta.html" class="nav__cta">Ver demo beta →</a>
+      </nav>
+      <button class="nav__burger" id="burgerBtn" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero" id="inicio">
+    <div class="container hero__grid">
+      <div class="hero__text">
+        <p class="hero__pill">Universidad ESAN · Taller de Desarrollo de Competencias Profesionales II</p>
+        <h1 class="hero__title">
+          Detectar a tiempo,<br />
+          <span class="grad-text">acompañar a tiempo.</span>
+        </h1>
+        <p class="hero__lead">
+          Solo el <strong>2.7 %</strong> de los colegios públicos del Perú tiene un psicólogo en planilla.
+          Proponemos un sistema accesible y de bajo costo para identificar señales de alerta en estudiantes de
+          7 a 14 años antes de que sea tarde.
+        </p>
+        <div class="hero__ctas">
+          <a href="sedet-web/propuesta.html" class="btn btn--primary">Explorar la plataforma beta</a>
+          <a href="#problema" class="btn btn--ghost">Conocer el problema</a>
+        </div>
+        <div class="hero__quick">
+          <div><b>19</b><span>familias entrevistadas</span></div>
+          <div><b>6</b><span>componentes del sistema</span></div>
+          <div><b>5</b><span>ejecutables sin presupuesto</span></div>
+        </div>
+      </div>
+      <div class="hero__visual" aria-hidden="true">
+        <div class="orb orb--1"></div>
+        <div class="orb orb--2"></div>
+        <div class="orb orb--3"></div>
+        <svg viewBox="0 0 400 400" class="hero__svg">
+          <defs>
+            <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0%" stop-color="#E31837" />
+              <stop offset="100%" stop-color="#1a1a1a" />
+            </linearGradient>
+          </defs>
+          <circle cx="200" cy="200" r="150" fill="none" stroke="url(#g1)" stroke-width="2" opacity="0.4" />
+          <circle cx="200" cy="200" r="110" fill="none" stroke="url(#g1)" stroke-width="2" opacity="0.6" />
+          <circle cx="200" cy="200" r="70" fill="none" stroke="url(#g1)" stroke-width="2" opacity="0.8" />
+          <circle cx="200" cy="200" r="30" fill="url(#g1)" opacity="0.9" />
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PROBLEMA ═══ -->
+  <section class="section section--alt" id="problema">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">El problema-reto</p>
+        <h2>Una brecha estructural, no un descuido puntual</h2>
+        <p class="section__lead">
+          La Ley 29719 exige un psicólogo por colegio desde 2011. Catorce años después,
+          el cumplimiento sigue siendo marginal. Estas son las razones detrás del problema.
+        </p>
+      </div>
+
+      <div class="causes-grid">
+        <article class="cause">
+          <span class="cause__num">01</span>
+          <h3>Presupuesto insuficiente</h3>
+          <p>El MINEDU financia ~3,500 plazas frente a una demanda real estimada en 55,000 profesionales por el Colegio de Psicólogos del Perú.</p>
+        </article>
+        <article class="cause">
+          <span class="cause__num">02</span>
+          <h3>Precarización laboral</h3>
+          <p>Contratos de 6 a 8 meses interrumpen la continuidad del acompañamiento. A fines de 2024 muchos contratos no se renovaron.</p>
+        </article>
+        <article class="cause">
+          <span class="cause__num">03</span>
+          <h3>Cobertura desigual</h3>
+          <p>Las zonas rurales y provincias quedan desiertas por bajos salarios. Las escuelas más vulnerables son las que menos recursos reciben.</p>
+        </article>
+        <article class="cause">
+          <span class="cause__num">04</span>
+          <h3>Docentes sin formación</h3>
+          <p>El 92.9 % de los directores considera insuficiente la capacitación socioemocional de su personal docente (MINSA y MINEDU, 2025).</p>
+        </article>
+        <article class="cause">
+          <span class="cause__num">05</span>
+          <h3>Estigma familiar</h3>
+          <p>La salud mental se sigue tratando como tema tabú en muchos hogares. El 31.6 % de las familias nunca recibió orientación del colegio.</p>
+        </article>
+        <article class="cause">
+          <span class="cause__num">06</span>
+          <h3>Sin protocolos claros</h3>
+          <p>El 57.9 % de los participantes desconoce si existen protocolos de detección. La respuesta queda al criterio del docente de turno.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ DATOS ═══ -->
+  <section class="section" id="datos">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">La evidencia</p>
+        <h2>Lo que dicen las cifras</h2>
+        <p class="section__lead">
+          Cruzamos datos oficiales del MINEDU, MINSA y reportes periodísticos con un cuestionario propio aplicado
+          a 19 familias de la comunidad educativa.
+        </p>
+      </div>
+
+      <!-- ─── Stat row ─── -->
+      <div class="stats-row">
+        <div class="stat">
+          <div class="stat__num" data-count="78.9" data-suffix="%">0%</div>
+          <p>de las familias ha visto estudiantes con cambios emocionales que no recibieron atención</p>
+        </div>
+        <div class="stat">
+          <div class="stat__num" data-count="2.63" data-suffix="/5" data-decimals="2">0/5</div>
+          <p>eficacia promedio percibida de los protocolos institucionales</p>
+        </div>
+        <div class="stat">
+          <div class="stat__num" data-count="33.3" data-suffix="%">0%</div>
+          <p>del personal docente nunca ha recibido capacitación en salud mental</p>
+        </div>
+        <div class="stat">
+          <div class="stat__num" data-count="3620" data-suffix="">0</div>
+          <p>estudiantes por cada psicólogo a nivel nacional (Perú21, 2024)</p>
+        </div>
+      </div>
+
+      <!-- ─── Charts ─── -->
+      <div class="charts-grid">
+        <div class="card chart-card">
+          <h3>Tiempo de detección de un problema emocional</h3>
+          <p class="card__sub">Distribución de respuestas (n = 19)</p>
+          <canvas id="chartTiempo"></canvas>
+        </div>
+        <div class="card chart-card">
+          <h3>Eficacia percibida de los protocolos</h3>
+          <p class="card__sub">Escala 1 (muy baja) – 5 (muy alta) · Promedio 2.63</p>
+          <canvas id="chartEficacia"></canvas>
+        </div>
+        <div class="card chart-card">
+          <h3>Frecuencia de capacitaciones al personal</h3>
+          <p class="card__sub">N = 18 respuestas válidas</p>
+          <canvas id="chartCapacitacion"></canvas>
+        </div>
+        <div class="card chart-card">
+          <h3>Cobertura psicológica nacional vs. demanda</h3>
+          <p class="card__sub">Plazas reales vs. estimación del Colegio de Psicólogos</p>
+          <canvas id="chartCobertura"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SOLUCIÓN ═══ -->
+  <section class="section section--alt" id="solucion">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">Nuestra propuesta</p>
+        <h2>Seis componentes, dos niveles de responsabilidad</h2>
+        <p class="section__lead">
+          No pretendemos reemplazar al psicólogo escolar. Proponemos un sistema complementario:
+          cinco componentes que podemos ejecutar nosotros mismos y uno que requiere decisión del Estado.
+        </p>
+      </div>
+
+      <div class="components">
+        <div class="component component--exec">
+          <div class="component__head">
+            <span class="component__num">1</span>
+            <h3>Capacitación docente</h3>
+          </div>
+          <p>Taller corto y replicable basado en el curso "Primeros auxilios psicológicos" del MINSA-ENSAP. El docente aprende a reconocer señales de alerta y a activar el protocolo.</p>
+          <span class="tag tag--exec">Ejecutable</span>
+        </div>
+        <div class="component component--exec">
+          <div class="component__head">
+            <span class="component__num">2</span>
+            <h3>Ficha de tamizaje</h3>
+          </div>
+          <p>Instrumento corto, físico o digital, que el docente completa en minutos al detectar una señal. Dispara una derivación predefinida hacia el psicólogo o la línea 0-800-77090.</p>
+          <span class="tag tag--exec">Ejecutable</span>
+        </div>
+        <div class="component component--exec component--feature">
+          <div class="component__head">
+            <span class="component__num">3</span>
+            <h3>Plataforma web</h3>
+          </div>
+          <p>Puerta de entrada digital con perfiles para cada actor clave: <strong>docentes</strong> que reportan conductas, <strong>psicólogos</strong> que gestionan casos, <strong>directivos</strong> que monitorean estadísticas y <strong>padres de familia</strong> con acceso a recursos. <a href="sedet-web/propuesta.html">Probar la beta →</a></p>
+          <span class="tag tag--exec">Ejecutable</span>
+        </div>
+        <div class="component component--exec">
+          <div class="component__head">
+            <span class="component__num">4</span>
+            <h3>Seguimiento de casos</h3>
+          </div>
+          <p>Registro simple que verifica si cada caso derivado recibió continuidad. Responde directamente al hallazgo de que solo el 30 % de los casos identificados recibe seguimiento.</p>
+          <span class="tag tag--exec">Ejecutable</span>
+        </div>
+        <div class="component component--exec">
+          <div class="component__head">
+            <span class="component__num">5</span>
+            <h3>Sensibilización familiar</h3>
+          </div>
+          <p>Charlas, folletos y contenido digital para cerrar la brecha del 31.6 % de familias que nunca recibió orientación del colegio sobre salud mental.</p>
+          <span class="tag tag--exec">Ejecutable</span>
+        </div>
+        <div class="component component--advocacy">
+          <div class="component__head">
+            <span class="component__num">6</span>
+            <h3>Más plazas de psicólogos</h3>
+          </div>
+          <p>El déficit de 55,000 profesionales no se cierra con un taller ni una web. Este componente requiere decisión presupuestal del Estado y se trabaja como incidencia.</p>
+          <span class="tag tag--advocacy">Incidencia externa</span>
+        </div>
+      </div>
+
+      <div class="callout">
+        <div>
+          <h3>¿Por qué presencial primero y virtual después?</h3>
+          <p>La evidencia comparativa no muestra que la telepsicología sea inferior (Cook y Doyle, 2002; Espinasa Busquets, 2021). Pero un primer contacto presencial protege la confianza inicial, permite observación clínica directa y no excluye a familias rurales sin buena conectividad. Por eso lo virtual queda para el seguimiento.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ EQUIPO ═══ -->
+  <section class="section" id="equipo">
+    <div class="container">
+      <div class="section__head">
+        <p class="eyebrow">Quiénes somos</p>
+        <h2>Cuatro estudiantes, un reto en común</h2>
+        <p class="section__lead">
+          Somos un equipo del Taller de Desarrollo de Competencias Profesionales II de la Universidad ESAN.
+          Nos organizamos con una matriz RACI para distribuir responsabilidades en cada tarea del proyecto.
+        </p>
+      </div>
+
+      <div class="team-grid">
+        <article class="member">
+          <div class="member__avatar" style="background: linear-gradient(135deg, #E31837, #b71230);">LH</div>
+          <h3>Leo Higinio</h3>
+          <p>Conceptualización del problema-reto · Introducción del informe</p>
+        </article>
+        <article class="member">
+          <div class="member__avatar" style="background: linear-gradient(135deg, #E31837, #1a1a1a);">HF</div>
+          <h3>Harol Flores</h3>
+          <p>Causas del problema · Datos teóricos y empíricos</p>
+        </article>
+        <article class="member">
+          <div class="member__avatar" style="background: linear-gradient(135deg, #b71230, #E31837);">ZR</div>
+          <h3>Zaida Ramírez</h3>
+          <p>Argumento, relevancia social, conclusiones y reflexión final</p>
+        </article>
+        <article class="member">
+          <div class="member__avatar" style="background: linear-gradient(135deg, #1a1a1a, #E31837);">EQ</div>
+          <h3>Engels Quispe</h3>
+          <p>Efectos del problema · Coordinación general del equipo</p>
+        </article>
+      </div>
+
+      <div class="raci">
+        <h3>Cómo nos organizamos: Matriz RACI</h3>
+        <p class="raci__lead">Cada integrante asumió al menos dos roles distintos a lo largo del proyecto. Esta es la distribución de responsabilidades:</p>
+        <div class="raci__legend">
+          <span><b>R</b> Responsable</span>
+          <span><b>A</b> A cargo / Líder</span>
+          <span><b>C</b> Consultor</span>
+          <span><b>I</b> Informado</span>
+        </div>
+        <div class="table-wrap">
+          <table class="raci-table">
+            <thead>
+              <tr><th>Tarea</th><th>R</th><th>A</th><th>C</th><th>I</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Conceptualización del problema</td><td>Leo</td><td>Engels</td><td>Harol</td><td>Docente</td></tr>
+              <tr><td>Causas del problema</td><td>Harol</td><td>Zaida</td><td>Engels</td><td>Docente</td></tr>
+              <tr><td>Efectos e implicancias</td><td>Engels</td><td>Leo</td><td>Zaida</td><td>Docente</td></tr>
+              <tr><td>Argumento y conclusiones</td><td>Zaida</td><td>Harol</td><td>Leo</td><td>Docente</td></tr>
+              <tr><td>Introducción</td><td>Leo</td><td>Engels</td><td>Harol</td><td>Docente</td></tr>
+              <tr><td>Coordinación general</td><td>Engels</td><td>Engels</td><td>Todos</td><td>Docente</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CTA FINAL ═══ -->
+  <section class="cta-final">
+    <div class="container">
+      <h2>Conoce la plataforma beta</h2>
+      <p>Diseñamos un primer prototipo navegable de lo que sería la puerta de entrada digital del sistema. Es el Componente 3 de la propuesta. Puedes probarla y dejarnos comentarios.</p>
+      <a href="sedet-web/propuesta.html" class="btn btn--primary btn--large">Abrir la beta →</a>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <p class="footer__brand"><img src="ESAN (1).png" alt="ESAN" style="height:28px;display:inline-block;vertical-align:middle;margin-right:8px;" /> MentalCare Kids Perú</p>
+        <p class="footer__desc">Sistema accesible y eficiente de detección temprana de problemas de salud mental en estudiantes de 7 a 14 años en colegios públicos del Perú.</p>
+      </div>
+      <div>
+        <h4>Proyecto</h4>
+        <ul>
+          <li><a href="#problema">Problema</a></li>
+          <li><a href="#datos">Datos</a></li>
+          <li><a href="#solucion">Solución</a></li>
+          <li><a href="sedet-web/propuesta.html">Plataforma beta</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Recursos de ayuda</h4>
+        <ul>
+          <li><a href="https://www.gob.pe/institucion/minsa" target="_blank" rel="noopener">Línea 113 — MINSA</a></li>
+          <li><a href="#" >Educación te Escucha: 0-800-77090</a></li>
+          <li><a href="https://www.gob.pe/institucion/minedu" target="_blank" rel="noopener">SíseVe — MINEDU</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Institucional</h4>
+        <ul>
+          <li>Universidad ESAN</li>
+          <li>TDCPRO-2 · 2026</li>
+          <li>Lima, Perú</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© 2026 · Proyecto académico MentalCare Kids Perú · Elaborado por Leo Higinio, Harol Flores, Zaida Ramírez y Engels Quispe.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="sedet-web/js/script.js"></script>
+</body>
+</html>
